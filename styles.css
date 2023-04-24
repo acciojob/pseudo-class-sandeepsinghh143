@@ -1,7 +1,9 @@
 /*  your css code here. If applicable */
-myclass::before{
+p::before{
+	content:"Before Element";
 	color:rgb(255,0,0);
 }
-myclass::after{
+p::after{
+	content:"After Element";
 	color:rgb(255,0,0);
 }
